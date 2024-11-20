@@ -99,9 +99,9 @@ color: #FFFFFF; /* Blanco al hacer hover */
     }
 
     .imagenPngLogo {
-        width: 38%;
+        width: 30%;
         height: auto;
-        margin: -5rem 0rem -6rem 11rem;
+        margin: -5rem 0rem -6rem 13rem;
     }
 
     .navbar-toggler {
@@ -131,9 +131,9 @@ color: #FFFFFF; /* Blanco al hacer hover */
     }
 
     .imagenPngLogo {
-        width: 38%;
+        width: 30%;
         height: auto;
-        margin: -5rem 0rem -6rem 10rem;
+        margin: -5rem 0rem -6rem 13;
     }
 
     .navbar-toggler {
@@ -163,9 +163,9 @@ color: #FFFFFF; /* Blanco al hacer hover */
     }
 
     .imagenPngLogo {
-        width: 38%;
+        width: 30%;
         height: auto;
-        margin: -5rem 0rem -6rem 7rem;
+        margin: -5rem 0rem -6rem 13rem;
     }
 
     .navbar-toggler {
