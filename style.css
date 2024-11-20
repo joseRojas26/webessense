@@ -1,0 +1,141 @@
+body {
+    background: url('./imagenes/DALL·E\ 2024-11-20\ 12.43.12\ -\ A\ clean\,\ minimalist\ background\ for\ a\ web\ development\ company\ that\ specializes\ in\ creating\ simple\,\ informative\ websites\ for\ small\ businesses\ and\ indepe.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    padding: 1rem 0;
+    background-color: #34495E; /* Gris oscuro */
+    color: #FFFFFF; /* Blanco para el texto */
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2C3E50; /* Azul oscuro */
+}
+
+.navbar .nav-link {
+color: #FFFFFF; /* Blanco */
+}
+
+.navbar .nav-link:hover {
+color: #BDC3C7; /* Gris claro al hacer hover */
+}
+
+footer a {
+color: #BDC3C7; /* Gris claro */
+}
+
+footer a:hover {
+color: #FFFFFF; /* Blanco al hacer hover */
+}
+
+/* Navbar Customizations */
+.imagenPngLogo {
+    width: 170px; /* Aumenta el tamaño del logo */
+    height: auto; /* Mantiene las proporciones */
+    max-height: 230px; /* Limita la altura del logo para que no afecte la altura del navbar */
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+/* Ajuste de la altura del navbar para que no se vea distorsionado */
+.navbar {
+    height: 70px; /* Ajusta la altura del navbar según sea necesario */
+}
+
+.imagenPngLogo:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Efecto Hover para el botón de WhatsApp */
+.wsp {
+    background-color: #25D366; /* Verde de WhatsApp */
+    color: #fff;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}     
+
+.wsp:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
+    background-color: #20c659; /* Verde más oscuro */
+    color: #f9f9f9; /* Cambia ligeramente el color del texto */
+}
+
+/* Media Query para teléfonos pequeños (por debajo de 576px) */
+@media (max-width: 575px) {
+    .navbar {
+        display: flex;
+        justify-content: center; /* Centra todo el contenido del navbar */
+    }
+
+    .container {
+        display: flex;
+        justify-content: center; /* Centra el contenido dentro del contenedor */
+        width: 100%; /* Asegura que el contenedor tenga el 100% de ancho */
+        padding: 0;
+    }
+
+    .pngContainer {
+        display: flex;
+        justify-content: center; /* Centra el logo */
+        margin-right: 0; /* Elimina cualquier margen */
+    }
+
+    .imagenPngLogo {
+        width: 60px; /* Ajusta el tamaño del logo para pantallas pequeñas */
+        height: auto;
+    }
+
+    .navbar-toggler {
+        position: absolute; /* Ajusta el toggler para que no se desplace */
+        right: 10px; /* Coloca el toggler en la esquina derecha */
+    }
+}
+
+/* Media Query para teléfonos medianos (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: center; /* Centra todo el contenido del navbar */
+    }
+
+    .container {
+        display: flex;
+        justify-content: center; /* Centra el contenido dentro del contenedor */
+        width: 100%;
+        padding: 0;
+    }
+
+    .pngContainer {
+        display: flex;
+        justify-content: center; /* Centra el logo */
+        margin-right: 0;
+    }
+
+    .imagenPngLogo {
+        width: 70px; /* Ajusta el tamaño del logo para pantallas medianas */
+        height: auto;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 10px;
+    }
+}
