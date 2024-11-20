@@ -141,3 +141,35 @@ color: #FFFFFF; /* Blanco al hacer hover */
         right: 10px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 768px) 
+{
+    .navbar {
+        display: flex;
+        justify-content: center; /* Centra todo el contenido del navbar */
+    }
+
+    .container {
+        display: flex;
+        justify-content: center; /* Centra el contenido dentro del contenedor */
+        width: 100%;
+        padding: 0;
+    }
+
+    .pngContainer {
+        display: flex;
+        justify-content: center; /* Centra el logo */
+        margin-right: 0;
+    }
+
+    .imagenPngLogo {
+        width: 38%;
+        height: auto;
+        margin: -5rem 0rem -6rem 4rem;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 10px;
+    }
+}
