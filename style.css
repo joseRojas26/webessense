@@ -99,8 +99,9 @@ color: #FFFFFF; /* Blanco al hacer hover */
     }
 
     .imagenPngLogo {
-        width: 60px; /* Ajusta el tamaño del logo para pantallas pequeñas */
+        width: 38%;
         height: auto;
+        margin: -5rem 0rem -6rem 10rem;
     }
 
     .navbar-toggler {
@@ -130,8 +131,9 @@ color: #FFFFFF; /* Blanco al hacer hover */
     }
 
     .imagenPngLogo {
-        width: 70px; /* Ajusta el tamaño del logo para pantallas medianas */
+        width: 38%;
         height: auto;
+        margin: -5rem 0rem -6rem 10rem;
     }
 
     .navbar-toggler {
