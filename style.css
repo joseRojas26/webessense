@@ -14,7 +14,7 @@ body {
 
 footer {
     padding: 1rem 0;
-    background-color: #34495E; /* Gris oscuro */
+    background-color: #2C3E50; /* Gris oscuro */
     color: #FFFFFF; /* Blanco para el texto */
 }
 
@@ -76,6 +76,32 @@ color: #FFFFFF; /* Blanco al hacer hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
     background-color: #20c659; /* Verde más oscuro */
     color: #f9f9f9; /* Cambia ligeramente el color del texto */
+}
+
+/* Sombra suave para las tarjetas */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Botones con animación de escala */
+.btn-solicitar {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-solicitar:hover {
+    transform: scale(1.1);
+    background-color: #0056b3; /* Color más oscuro al hacer hover */
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Media Query para teléfonos pequeños (por debajo de 576px) */

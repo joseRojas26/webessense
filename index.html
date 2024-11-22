@@ -50,35 +50,84 @@
         <a class="pngContainer" href="/index.html" style="position: relative; display: flex; align-items: center; padding: 0; margin-right: 10px;">
             <img src="/imagenes/logo.png" class="imagenPngLogo" alt="Logo">
         </a>
-        <!-- Toggler for Mobile -->
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <!-- Botón de navegación para móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <!-- Navigation Links -->
-        <!-- <div class="collapse navbar-collapse" id="navbarNav">
+        </button>
+
+        <!-- Opciones del menú -->
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #FFFFFF;">Inicio</a>
+                    <a class="nav-link text-white" href="#servicios">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #FFFFFF;">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #FFFFFF;">Contacto</a>
+                    <a class="nav-link text-white" href="#planes">Planes</a>
                 </li>
             </ul>
-        </div> -->
+        </div>
     </div>
 </nav>
 
 <!-- Main -->
-<main class="d-flex align-items-center min-vh-100">
-    <div class="main-content">
-        <h1>Servicios de Desarrollo Web</h1>
-        <p>Ofrecemos páginas web sencillas, informativas y personalizadas, ideales para pequeñas empresas y personas independientes. Diseñadas para destacar tus productos o servicios con profesionalismo y simplicidad.</p>
-        <p><strong>Contáctanos por WhatsApp para más información y empieza a construir tu presencia en línea hoy mismo.</strong></p>
-        <a href="https://wa.me/+541123882002?text=¡Hola!%20Estoy%20interesado%20en%20los%20servicios%20de%20desarrollo%20web%20de%20WebEssence." class="btn btn-success btn-lg wsp" target="_blank">Escríbenos por WhatsApp</a>
-    </div>
+<main class="container my-5">
+    <!-- Introducción -->
+    <section id="servicios" class="d-flex align-items-center min-vh-100 text-center">
+        <div class="main-content">
+            <h1>Servicios de Desarrollo Web</h1>
+            <p>Ofrecemos páginas web sencillas, informativas y personalizadas, ideales para pequeñas empresas y personas independientes. Diseñadas para destacar tus productos o servicios con profesionalismo y simplicidad.</p>
+            <p><strong>Contáctanos por WhatsApp para más información y empieza a construir tu presencia en línea hoy mismo.</strong></p>
+            <a href="https://wa.me/+541123882002?text=¡Hola!%20Estoy%20interesado%20en%20los%20servicios%20de%20desarrollo%20web%20de%20WebEssence." class="btn btn-success btn-lg wsp" target="_blank">Escríbenos por WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="planes" class="my-5">
+        <h2 class="text-center mb-4">Nuestros Planes</h2>
+
+        <!-- Plan Básico -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title">Plan Básico</h3>
+                <p class="card-text">Incluye el diseño y desarrollo de una página web sencilla e informativa, ideal para pequeñas empresas o personas independientes.</p>
+                <ul>
+                    <li>Diseño responsive</li>
+                    <li>Optimización básica SEO</li>
+                    <li>Entrega en 7 días</li>
+                </ul>
+                <a href="https://wa.me/+541123882002?text=Estoy%20interesado%20en%20el%20Plan%20Básico%20de%20WebEssence." class="btn btn-primary btn-solicitar" target="_blank">Solicitar Plan Básico</a>
+            </div>
+        </div>
+
+        <!-- Plan Completo -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title">Plan Completo</h3>
+                <p class="card-text">Además del diseño y desarrollo web, incluye hosting y mantenimiento durante un año.</p>
+                <ul>
+                    <li>Todo lo del Plan Básico</li>
+                    <li>Hosting por 1 año</li>
+                    <li>Actualizaciones y cambios menores durante el año</li>
+                </ul>
+                <a href="https://wa.me/+541123882002?text=Estoy%20interesado%20en%20el%20Plan%20Completo%20de%20WebEssence." class="btn btn-primary btn-solicitar" target="_blank">Solicitar Plan Completo</a>
+            </div>
+        </div>
+
+        <!-- Plan Avanzado -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title">Plan Avanzado</h3>
+                <p class="card-text">Incluye todo lo necesario para una presencia web sólida con optimización avanzada y personalización continua.</p>
+                <ul>
+                    <li>Todo lo del Plan Completo</li>
+                    <li>Integraciones personalizadas</li>
+                    <li>Consultoría para mejora continua</li>
+                </ul>
+                <a href="https://wa.me/+541123882002?text=Estoy%20interesado%20en%20el%20Plan%20Avanzado%20de%20WebEssence." class="btn btn-primary btn-solicitar" target="_blank">Solicitar Plan Avanzado</a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <!-- Footer -->
