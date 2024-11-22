@@ -34,7 +34,7 @@ color: #FFFFFF; /* Blanco */
 }
 
 .navbar .nav-link:hover {
-color: #BDC3C7; /* Gris claro al hacer hover */
+color: #BDC3C7; /* Gris claro al hacer hover |*/
 }
 
 footer a {
@@ -107,95 +107,149 @@ html {
 /* Media Query para teléfonos pequeños (por debajo de 576px) */
 @media (max-width: 575px) {
     .navbar {
-        display: flex;
-        justify-content: center; /* Centra todo el contenido del navbar */
+        display: flex !important;
+        justify-content: center !important; 
     }
 
     .container {
-        display: flex;
-        justify-content: center; /* Centra el contenido dentro del contenedor */
-        width: 100%; /* Asegura que el contenedor tenga el 100% de ancho */
-        padding: 0;
+        display: flex !important;
+        justify-content: center !important; 
+        width: 100% !important; 
+        padding: 0 !important;
     }
 
     .pngContainer {
-        display: flex;
-        justify-content: center; /* Centra el logo */
-        margin-right: 0; /* Elimina cualquier margen */
+        display: flex !important;
+        justify-content: center !important; 
+        margin-right: 0 !important; 
     }
 
     .imagenPngLogo {
-        width: 30%;
-        height: auto;
-        margin: -5rem 0rem -6rem 13rem;
+        width: 70% !important;
+        height: auto !important;
+        margin: -5rem 0rem -6rem 1rem !important;
+        margin-top: -39% !important;
     }
 
-    .navbar-toggler {
-        position: absolute; /* Ajusta el toggler para que no se desplace */
-        right: 10px; /* Coloca el toggler en la esquina derecha */
+    main {
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: stretch !important; 
+    }
+
+    
+    #servicios {
+        padding: 20px !important; 
+        text-align: center !important; 
+    }
+
+    
+    #planes {
+        padding: 20px !important; 
+        text-align: center !important; 
+    }
+
+    
+    #planes .card {
+        width: 90% !important; 
+        margin: 10px auto !important; 
     }
 }
 
 /* Media Query para teléfonos medianos (entre 576px y 767px) */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
-        display: flex;
-        justify-content: center; /* Centra todo el contenido del navbar */
+        display: flex !important;
+        justify-content: center !important;
     }
 
     .container {
-        display: flex;
-        justify-content: center; /* Centra el contenido dentro del contenedor */
-        width: 100%;
-        padding: 0;
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+        padding: 0 !important;
     }
 
     .pngContainer {
-        display: flex;
-        justify-content: center; /* Centra el logo */
-        margin-right: 0;
+        display: flex !important;
+        justify-content: center !important;
+        margin-right: 0 !important;
     }
 
     .imagenPngLogo {
-        width: 30%;
-        height: auto;
-        margin: -5rem 0rem -6rem 13;
+        width: 70% !important;
+        height: auto !important;
+        margin: -5rem 0rem -6rem 1rem !important;
+        margin-top: -39% !important;
     }
 
-    .navbar-toggler {
-        position: absolute;
-        right: 10px;
+    main {
+        display: flex  !important;
+        flex-direction: column !important; 
+        align-items: stretch !important; 
+    }
+
+    #servicios {
+        padding: 20px !important; 
+        text-align: center !important; 
+    }
+
+    #planes {
+        padding: 20px !important; 
+        text-align: center !important; 
+    }
+
+    #planes .card {
+        width: 90% !important; 
+        margin: 10px auto !important; 
     }
 }
 
 @media (min-width: 320px) and (max-width: 574px) 
 {
     .navbar {
-        display: flex;
-        justify-content: center; /* Centra todo el contenido del navbar */
+        display: flex !important;
+        justify-content: center!important; 
     }
 
     .container {
-        display: flex;
-        justify-content: center; /* Centra el contenido dentro del contenedor */
-        width: 100%;
-        padding: 0;
+        display: flex !important;
+        justify-content: center !important; 
+        width: 100% !important;
+        padding: 0 !important;
     }
 
     .pngContainer {
-        display: flex;
-        justify-content: center; /* Centra el logo */
-        margin-right: 0;
+        display: flex !important;
+        justify-content: center !important; 
+        margin-right: 0 !important;
     }
 
     .imagenPngLogo {
-        width: 30%;
-        height: auto;
-        margin: -5rem 0rem -6rem 13rem;
+        width: 70% !important;
+        height: auto !important;
+        margin: -5rem 0rem -6rem 1rem !important;
+        margin-top: -39% !important;
     }
 
-    .navbar-toggler {
-        position: absolute;
-        right: 10px;
+    main {
+        display: flex  !important;
+        flex-direction: column !important; 
+        align-items: stretch !important; 
+    }
+
+    #servicios {
+        padding: 20px !important; 
+        text-align: center !important; 
+    }
+
+    #planes {
+        padding: 20px !important; 
+        text-align: center !important; 
+    }
+
+    #planes .card {
+        width: 90% !important; 
+        margin: 10px auto !important; 
     }
 }
